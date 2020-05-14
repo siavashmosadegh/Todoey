@@ -29,11 +29,17 @@
                             <outlet property="delegate" destination="VKR-9l-Jhn" id="V8k-iY-oVR"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoey" id="HNs-EP-fax"/>
+                    <navigationItem key="navigationItem" title="Todoey" id="HNs-EP-fax">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="0QH-nU-hQw">
+                            <connections>
+                                <action selector="addButtonPressed:" destination="VKR-9l-Jhn" id="Z9q-sA-g9A"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lgW-vP-t6P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1050.7246376811595" y="40.848214285714285"/>
+            <point key="canvasLocation" x="1217" y="41"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="0vl-0k-Trz">
